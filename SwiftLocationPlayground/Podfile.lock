@@ -1,0 +1,19 @@
+PODS:
+  - SwiftLocation/BeaconBroadcaster (5.1.0):
+    - SwiftLocation/Core
+  - SwiftLocation/Core (5.1.0)
+
+DEPENDENCIES:
+  - SwiftLocation/BeaconBroadcaster (from `../`)
+  - SwiftLocation/Core (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftLocation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftLocation: 83e0ea75a1969cee3a1197e2b7095603fc23fde5
+
+PODFILE CHECKSUM: c2626a412c7b7f5893405fe1cf5203471da76993
+
+COCOAPODS: 1.10.1

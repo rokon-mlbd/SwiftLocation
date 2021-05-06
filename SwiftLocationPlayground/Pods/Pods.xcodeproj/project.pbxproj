@@ -1,0 +1,1053 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C5BE7DF3CD60A81E7BBEF5B15A6E3B /* SwiftLocation+BeaconBroadcaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC73B6460688D75827AE47CDFD97DBF /* SwiftLocation+BeaconBroadcaster.swift */; };
+		07F6B10C8D85A83F89E9BABDC66FE0C8 /* AutocompleteRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE95584A5BD698211F8452B653F0089 /* AutocompleteRequest.swift */; };
+		096D7B89060EA873A5FE5D1DEF22E6CC /* BeaconBroadcaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71111A26571AC984DBDA9DA1B5CAEC6B /* BeaconBroadcaster.swift */; };
+		299DC1A8D964824A6A6097F18109F2D7 /* IPLocation+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439ACDFE106E5C3D1B9ED4CCC7993D0E /* IPLocation+Data.swift */; };
+		3248DED708C0BE1A93A2E5E1AED57A2A /* Pods-SwiftLocationPlayground-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D8FD81F3B92DA130B7DDE55AADD92FA /* Pods-SwiftLocationPlayground-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AACAC3FE1781EE4D922DF7894779F4B /* IPLocation-IPGeolocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63122727F56BFA800A31DBD406D57089 /* IPLocation-IPGeolocation.swift */; };
+		3C270168D194643FBC25AB266ECF2D4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E086E60FF62801605C52C526A861B2D /* Foundation.framework */; };
+		40C41DB68BB1975D7DAE8FB0FC639093 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8A480A6895DB3A237B4E810C6C2F627 /* CoreBluetooth.framework */; };
+		4B84BD08F5BBA47B80D3E4B76145B864 /* IPLocationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA2CF8E6AF62F92F8E1808B9CFD339D /* IPLocationRequest.swift */; };
+		4F3C57B545176CB1333DE65D821EF425 /* JSONNetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D79D3F3064B1489F599F1A01AF7AF21 /* JSONNetworkHelper.swift */; };
+		549E2D678813C4BE31F0E92F083F34A9 /* Geocoder-OpenStreet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A38F87DC9E5255ED57B7E6EED44128 /* Geocoder-OpenStreet.swift */; };
+		56F9A371A3908748905F182E9DAF8E2C /* GeofencingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511E3ADE72DA9E0B7A1B55AFD4C66C7A /* GeofencingRequest.swift */; };
+		5AC52D2B9059A0AF675C085D0642371E /* GPSLocationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71DA46007C04F1D37DCB35987E23461 /* GPSLocationRequest.swift */; };
+		5AED2E52B7AAF69156099B5649E575C6 /* GeoLocation+MapBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34790388BFF76610DA7B02850DBF421A /* GeoLocation+MapBox.swift */; };
+		5BD052283C4150E92571C53B50885E82 /* GeoLocation+Here.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316A3F506334DBA30722D77051652BFA /* GeoLocation+Here.swift */; };
+		5D62FB21F146BC67E570AFB8BE6977B7 /* IPLocation-IPApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81C88C1019E62FDDE7630B8CDAE5FCB /* IPLocation-IPApi.swift */; };
+		5F7EDCF0A927C3BC0B52D0AA748E9CC7 /* SwiftLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDADB871A76F6666E9CB32BD93DEBC05 /* SwiftLocation.swift */; };
+		69123820520865AD3828F95EFA17235F /* Geocoder-MapBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E51E067D0874A829AA889D320574B6 /* Geocoder-MapBox.swift */; };
+		6B8CA29619127BD0F3D730E0E68E9DBE /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6213BC6D15885C2E9C7E6F70A4FE06 /* RequestProtocol.swift */; };
+		6BFAA3FD8056E647BE0119EF48F8081F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BDC853CF98F52B2F5CEAD047B3FC4E /* MapKit.framework */; };
+		6BFDA1EDACF1DCCB244C85D9FF30F3EE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152F9A6FABE27BCBB263D761F71A4F95 /* CoreLocation.framework */; };
+		6D7F7E6EB467C88857F0758F55A4652A /* SwiftLocation+Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F577C4A54313379D08B90612D880853D /* SwiftLocation+Errors.swift */; };
+		706B8E7B1DBA40F4B283D595453295D0 /* RequestProtocol+Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828DB0DDEB742B80EA597C95CAD747EF /* RequestProtocol+Support.swift */; };
+		748CF03C13F9C2D3A970D54B532E3417 /* Geocoder-Here.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FC37ACB93A3885A29470508E2C0972 /* Geocoder-Here.swift */; };
+		753CFAC4C4EAB838D1D29A5E82A156B9 /* GPSLocationOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A73C7234BFCD0F39758C432210162CD /* GPSLocationOptions.swift */; };
+		7591BF2D40355751D676ABC77876DA8E /* GeoLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73853F2B17C030DDB2B2FAD933CFC195 /* GeoLocation.swift */; };
+		77EE9E37FA49F96DE390B3BCA440472F /* IPLocation-IPData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FCA66726669C62EF52448149B5877B /* IPLocation-IPData.swift */; };
+		797BA5673BBA5D248436AED4F54DFD58 /* SwiftLocation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBD1B8145D0756D66726D8C321C5394 /* SwiftLocation-dummy.m */; };
+		79C2A0E50BC2296BD8BA398284B2A552 /* GeocoderServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB31AAB2AF7D7B849738EF2C889DCAD4 /* GeocoderServiceProtocol.swift */; };
+		7CD839DB2589A762984A36C29383EB77 /* Pods-SwiftLocationPlayground-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FD0FAD311A5997C4764366733C5CEC /* Pods-SwiftLocationPlayground-dummy.m */; };
+		7F23468988358728B2AE70F51B777ADE /* SwiftLocation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3618B01846D8B9417E3AC0DBB565E3BE /* SwiftLocation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		836C5219371C083B15CCB9DA8C598B4C /* RequestProtocol+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F668A02ED88AE8BA5616EDDAD57E6DA3 /* RequestProtocol+Extension.swift */; };
+		85F3B91D572A134A3BDEA2CF902CC6AA /* Autocomplete-Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = F051FD4B1B5D6909D3AE1D81840097DA /* Autocomplete-Apple.swift */; };
+		8A6B947DCC1FA20746747AE581B76893 /* AutocompleteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17099954E0F7A7368A93715EF25276B9 /* AutocompleteProtocol.swift */; };
+		95101641CA162C07EA2603F501DFF89B /* LocationManagerImpProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E030DA25F12D3AC43D72AF0B9208CDAD /* LocationManagerImpProtocol.swift */; };
+		98B989E30615897EE50A68D6C0C0B2C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E086E60FF62801605C52C526A861B2D /* Foundation.framework */; };
+		9C979A58C477350166CDBC2B662703AF /* Autocomplete-Here.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB3B767FA7B13C8D689A941034F4E0D /* Autocomplete-Here.swift */; };
+		A44B1EA403B26ECE55551214989F389E /* PartialAddressMatch+Google.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0E295F31F0D2084CE51D23F5C6094 /* PartialAddressMatch+Google.swift */; };
+		A7FF66EC214489D7178B6054D83F509E /* GeofencingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E6C6C9A6641BD23AC71BF8B3065F60 /* GeofencingOptions.swift */; };
+		A823C73D8C1F019C584996B2C176EA88 /* PartialAddressMatch+Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90720A5264A64526568DBAD3E2266352 /* PartialAddressMatch+Apple.swift */; };
+		A941581D6146DE0BF49A6EC958796181 /* PartialAddressMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F05CF575732B803F88060CB1C8A803 /* PartialAddressMatch.swift */; };
+		AFFE2CB0D6454C28CA7934FB39ED69D8 /* Autocomplete-Google.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890B8571FCB1E2C9E1CF0EA4E04CEF35 /* Autocomplete-Google.swift */; };
+		B11811AB1E8FE44CF432937AB473BB82 /* Geocoder-Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6058077C03D2F02B2BAB039ED01A908 /* Geocoder-Apple.swift */; };
+		B194CA75CD8B2CE83FBB1DB604CB44C2 /* DeviceLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8976810FC424633D40130A2E554AAB /* DeviceLocationManager.swift */; };
+		B66D0D7A9EDC80AA402AD2E170D2CD0C /* GeoLocation+OpenStreet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1996CE1E44B3B496C4F255BE62CBC72A /* GeoLocation+OpenStreet.swift */; };
+		BD85998B5C356E28F92A421C83127104 /* IPLocation-IPInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FD5A256B4E98BD52C511A0CA826A2 /* IPLocation-IPInfo.swift */; };
+		C29E39A916057FA6AA7A4D372D113C2D /* SwiftLocation+Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8216A7FE3A9C8447A6340FFB209F963 /* SwiftLocation+Credentials.swift */; };
+		C2B79D1C455001B61ED3EA8EE1E9F76F /* VisitsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37B7183E15A43F0D8C0C71977D06EDA /* VisitsRequest.swift */; };
+		C6B5AFC97D3422022E64598C953502CC /* Geocoder-Google.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6366C2CCCCD8E0533C5EF6B16728EA0A /* Geocoder-Google.swift */; };
+		CEAFF0507B377E560E65DD03341FC620 /* IPLocation-IPStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C728EF2BA6598ED064C958FA403C091 /* IPLocation-IPStack.swift */; };
+		D2F5ED7E1803E6CD02D0B7E51ABF6A66 /* IPLocation-IPIpify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CEA2A5F8A3AAAD471001D33DD0010B /* IPLocation-IPIpify.swift */; };
+		D33D46D79C4C1E2015522B90B0E61E11 /* GeoLocation+Google.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593AEE4C965F8C03A5E7167CF529EE07 /* GeoLocation+Google.swift */; };
+		DA1E2F68D41BDC019B801035913DAD14 /* PartialAddressMatch+Here.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F27100043F6A242808573EBF237E0A /* PartialAddressMatch+Here.swift */; };
+		E471F4BF3E3163967614ACFD6337239F /* Foundation+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450D4E440B21F8FDC74A2B4088BD0F04 /* Foundation+Extras.swift */; };
+		E903C405503636B295D058EBFF6AA304 /* CLLocationManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3FADD046F1E23BF22D6AED732B9D12 /* CLLocationManager+Extension.swift */; };
+		ECA343E80D86A53954001B573526A8F8 /* GeoLocation+Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC59B55CBE489F91E82CE93CEE4174FC /* GeoLocation+Apple.swift */; };
+		EDA8A13D33CE52892C846D6ADE0CB7EB /* BeaconRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6DFB5380E468A9E6E798EC3EC44BB /* BeaconRequest.swift */; };
+		F16D8DEE834FB4195E6438B291F7F5ED /* IPServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0E0E4E635A78D1B223D00954A830AB /* IPServiceProtocol.swift */; };
+		F373E5C81243F822AEBE64B0DC39739D /* GeocoderRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6172CED0F89A5C77B16638F3EC5E2 /* GeocoderRequest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		962BD1EC263214A798475FAC5796094E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A77DC3FBE3DFD1D1CA8D8812A6CF0776;
+			remoteInfo = SwiftLocation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09E37EC4EC3C5DFF0C4BEA410F62428B /* SwiftLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLocation.release.xcconfig; sourceTree = "<group>"; };
+		152F9A6FABE27BCBB263D761F71A4F95 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		17099954E0F7A7368A93715EF25276B9 /* AutocompleteProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AutocompleteProtocol.swift; sourceTree = "<group>"; };
+		1996CE1E44B3B496C4F255BE62CBC72A /* GeoLocation+OpenStreet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "GeoLocation+OpenStreet.swift"; sourceTree = "<group>"; };
+		1A73C7234BFCD0F39758C432210162CD /* GPSLocationOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GPSLocationOptions.swift; sourceTree = "<group>"; };
+		1B3FADD046F1E23BF22D6AED732B9D12 /* CLLocationManager+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CLLocationManager+Extension.swift"; sourceTree = "<group>"; };
+		1D8FD81F3B92DA130B7DDE55AADD92FA /* Pods-SwiftLocationPlayground-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftLocationPlayground-umbrella.h"; sourceTree = "<group>"; };
+		1DB0E295F31F0D2084CE51D23F5C6094 /* PartialAddressMatch+Google.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "PartialAddressMatch+Google.swift"; sourceTree = "<group>"; };
+		1E086E60FF62801605C52C526A861B2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		20E0EE1BC9B52381BFA8BB141961A83B /* SwiftLocation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftLocation-Info.plist"; sourceTree = "<group>"; };
+		226D4D9E325B23412E122CD2230C6151 /* Pods-SwiftLocationPlayground-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftLocationPlayground-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2CEE9BA46C331A88D39E622A67832716 /* SwiftLocation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftLocation.modulemap; sourceTree = "<group>"; };
+		2E6213BC6D15885C2E9C7E6F70A4FE06 /* RequestProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		316A3F506334DBA30722D77051652BFA /* GeoLocation+Here.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "GeoLocation+Here.swift"; sourceTree = "<group>"; };
+		34790388BFF76610DA7B02850DBF421A /* GeoLocation+MapBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "GeoLocation+MapBox.swift"; sourceTree = "<group>"; };
+		35AFE287C2C59FC0D139C444DF10EAB8 /* Pods-SwiftLocationPlayground-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftLocationPlayground-Info.plist"; sourceTree = "<group>"; };
+		3618B01846D8B9417E3AC0DBB565E3BE /* SwiftLocation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftLocation-umbrella.h"; sourceTree = "<group>"; };
+		38C6172CED0F89A5C77B16638F3EC5E2 /* GeocoderRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeocoderRequest.swift; sourceTree = "<group>"; };
+		3C728EF2BA6598ED064C958FA403C091 /* IPLocation-IPStack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "IPLocation-IPStack.swift"; sourceTree = "<group>"; };
+		3DA6DFB5380E468A9E6E798EC3EC44BB /* BeaconRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BeaconRequest.swift; sourceTree = "<group>"; };
+		439ACDFE106E5C3D1B9ED4CCC7993D0E /* IPLocation+Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "IPLocation+Data.swift"; sourceTree = "<group>"; };
+		450D4E440B21F8FDC74A2B4088BD0F04 /* Foundation+Extras.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Foundation+Extras.swift"; sourceTree = "<group>"; };
+		4C678B4A8CAADE71D75DA8311295097A /* SwiftLocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftLocation.framework; path = SwiftLocation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D79D3F3064B1489F599F1A01AF7AF21 /* JSONNetworkHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONNetworkHelper.swift; sourceTree = "<group>"; };
+		50BDC853CF98F52B2F5CEAD047B3FC4E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		511E3ADE72DA9E0B7A1B55AFD4C66C7A /* GeofencingRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeofencingRequest.swift; sourceTree = "<group>"; };
+		53FD0FAD311A5997C4764366733C5CEC /* Pods-SwiftLocationPlayground-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftLocationPlayground-dummy.m"; sourceTree = "<group>"; };
+		55FCA66726669C62EF52448149B5877B /* IPLocation-IPData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "IPLocation-IPData.swift"; sourceTree = "<group>"; };
+		593AEE4C965F8C03A5E7167CF529EE07 /* GeoLocation+Google.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "GeoLocation+Google.swift"; sourceTree = "<group>"; };
+		5A8976810FC424633D40130A2E554AAB /* DeviceLocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DeviceLocationManager.swift; sourceTree = "<group>"; };
+		5CE95584A5BD698211F8452B653F0089 /* AutocompleteRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AutocompleteRequest.swift; sourceTree = "<group>"; };
+		5F0E0E4E635A78D1B223D00954A830AB /* IPServiceProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPServiceProtocol.swift; sourceTree = "<group>"; };
+		63122727F56BFA800A31DBD406D57089 /* IPLocation-IPGeolocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "IPLocation-IPGeolocation.swift"; sourceTree = "<group>"; };
+		6366C2CCCCD8E0533C5EF6B16728EA0A /* Geocoder-Google.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Geocoder-Google.swift"; sourceTree = "<group>"; };
+		6FB3B767FA7B13C8D689A941034F4E0D /* Autocomplete-Here.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Autocomplete-Here.swift"; sourceTree = "<group>"; };
+		70262EFDB5D35F97B0B6913507227DBF /* SwiftLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLocation.debug.xcconfig; sourceTree = "<group>"; };
+		71111A26571AC984DBDA9DA1B5CAEC6B /* BeaconBroadcaster.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BeaconBroadcaster.swift; sourceTree = "<group>"; };
+		73853F2B17C030DDB2B2FAD933CFC195 /* GeoLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeoLocation.swift; sourceTree = "<group>"; };
+		74CEA2A5F8A3AAAD471001D33DD0010B /* IPLocation-IPIpify.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "IPLocation-IPIpify.swift"; sourceTree = "<group>"; };
+		7D26D0EB0C3D4ACA698D59CBF170C942 /* Pods-SwiftLocationPlayground.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftLocationPlayground.modulemap"; sourceTree = "<group>"; };
+		828DB0DDEB742B80EA597C95CAD747EF /* RequestProtocol+Support.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "RequestProtocol+Support.swift"; sourceTree = "<group>"; };
+		890B8571FCB1E2C9E1CF0EA4E04CEF35 /* Autocomplete-Google.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Autocomplete-Google.swift"; sourceTree = "<group>"; };
+		8A679E045B1CE828F6A683137248C315 /* SwiftLocation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftLocation-prefix.pch"; sourceTree = "<group>"; };
+		8E3FD5A256B4E98BD52C511A0CA826A2 /* IPLocation-IPInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "IPLocation-IPInfo.swift"; sourceTree = "<group>"; };
+		8FF0EEC6102DFDBB5F4038E54BA49CE3 /* Pods-SwiftLocationPlayground-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftLocationPlayground-acknowledgements.plist"; sourceTree = "<group>"; };
+		90720A5264A64526568DBAD3E2266352 /* PartialAddressMatch+Apple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "PartialAddressMatch+Apple.swift"; sourceTree = "<group>"; };
+		9CBD1B8145D0756D66726D8C321C5394 /* SwiftLocation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftLocation-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7F05CF575732B803F88060CB1C8A803 /* PartialAddressMatch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PartialAddressMatch.swift; sourceTree = "<group>"; };
+		A8E51E067D0874A829AA889D320574B6 /* Geocoder-MapBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Geocoder-MapBox.swift"; sourceTree = "<group>"; };
+		AEFB5464021376EDAE9EF7E360798AD8 /* SwiftLocation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftLocation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B2E6C6C9A6641BD23AC71BF8B3065F60 /* GeofencingOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeofencingOptions.swift; sourceTree = "<group>"; };
+		B5D561DF8D6A8326358D00B5477D86B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B6058077C03D2F02B2BAB039ED01A908 /* Geocoder-Apple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Geocoder-Apple.swift"; sourceTree = "<group>"; };
+		B81C88C1019E62FDDE7630B8CDAE5FCB /* IPLocation-IPApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "IPLocation-IPApi.swift"; sourceTree = "<group>"; };
+		C88712F5C5B8DFE28472AAAB89A8DDA4 /* Pods-SwiftLocationPlayground-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftLocationPlayground-frameworks.sh"; sourceTree = "<group>"; };
+		C8F27100043F6A242808573EBF237E0A /* PartialAddressMatch+Here.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "PartialAddressMatch+Here.swift"; sourceTree = "<group>"; };
+		CC59B55CBE489F91E82CE93CEE4174FC /* GeoLocation+Apple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "GeoLocation+Apple.swift"; sourceTree = "<group>"; };
+		CC93D7A9E44EC5E70747694C81221EBC /* Pods-SwiftLocationPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLocationPlayground.release.xcconfig"; sourceTree = "<group>"; };
+		D209C49CF6BB816388A154522E2F9701 /* Pods_SwiftLocationPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftLocationPlayground.framework; path = "Pods-SwiftLocationPlayground.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71DA46007C04F1D37DCB35987E23461 /* GPSLocationRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GPSLocationRequest.swift; sourceTree = "<group>"; };
+		D8FC37ACB93A3885A29470508E2C0972 /* Geocoder-Here.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Geocoder-Here.swift"; sourceTree = "<group>"; };
+		DAA2CF8E6AF62F92F8E1808B9CFD339D /* IPLocationRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IPLocationRequest.swift; sourceTree = "<group>"; };
+		DDC73B6460688D75827AE47CDFD97DBF /* SwiftLocation+BeaconBroadcaster.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftLocation+BeaconBroadcaster.swift"; path = "Sources/SwiftLocationBeaconBroadcaster/SwiftLocation+BeaconBroadcaster.swift"; sourceTree = "<group>"; };
+		E030DA25F12D3AC43D72AF0B9208CDAD /* LocationManagerImpProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocationManagerImpProtocol.swift; sourceTree = "<group>"; };
+		E2A38F87DC9E5255ED57B7E6EED44128 /* Geocoder-OpenStreet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Geocoder-OpenStreet.swift"; sourceTree = "<group>"; };
+		E8216A7FE3A9C8447A6340FFB209F963 /* SwiftLocation+Credentials.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftLocation+Credentials.swift"; path = "Sources/SwiftLocation/SwiftLocation+Credentials.swift"; sourceTree = "<group>"; };
+		E8A480A6895DB3A237B4E810C6C2F627 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		E9147DAB2CF48A083C3BE2F8C0AABEFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F051FD4B1B5D6909D3AE1D81840097DA /* Autocomplete-Apple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Autocomplete-Apple.swift"; sourceTree = "<group>"; };
+		F37B7183E15A43F0D8C0C71977D06EDA /* VisitsRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VisitsRequest.swift; sourceTree = "<group>"; };
+		F577C4A54313379D08B90612D880853D /* SwiftLocation+Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftLocation+Errors.swift"; path = "Sources/SwiftLocation/SwiftLocation+Errors.swift"; sourceTree = "<group>"; };
+		F668A02ED88AE8BA5616EDDAD57E6DA3 /* RequestProtocol+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "RequestProtocol+Extension.swift"; sourceTree = "<group>"; };
+		FB31AAB2AF7D7B849738EF2C889DCAD4 /* GeocoderServiceProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeocoderServiceProtocol.swift; sourceTree = "<group>"; };
+		FDADB871A76F6666E9CB32BD93DEBC05 /* SwiftLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftLocation.swift; path = Sources/SwiftLocation/SwiftLocation.swift; sourceTree = "<group>"; };
+		FE82DA6E8B6F231D76291D07E3F42599 /* Pods-SwiftLocationPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftLocationPlayground.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61165E2E339B0EA5B93C17AE0E10FF8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C41DB68BB1975D7DAE8FB0FC639093 /* CoreBluetooth.framework in Frameworks */,
+				6BFDA1EDACF1DCCB244C85D9FF30F3EE /* CoreLocation.framework in Frameworks */,
+				3C270168D194643FBC25AB266ECF2D4B /* Foundation.framework in Frameworks */,
+				6BFAA3FD8056E647BE0119EF48F8081F /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5911DDACFFA173E29F10A37691589FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B989E30615897EE50A68D6C0C0B2C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08BCD459F5151A24862B632EB67409CF /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				A6F177CABF7FF64BE014439973AF3486 /* Autocomplete */,
+				217781B03EBBE92BB0C34C5939D52882 /* Beacon */,
+				0F9F1BC84E54ED8B02CB09E46122EA2D /* Geocoder */,
+				D74E189CB4B7B832ED4A29FA539ABFB3 /* Geofencing */,
+				F72E225B8E0BF3B3D2375BD6ABCADC06 /* GPSLocation */,
+				6E81250B1285BAD30251C6EE5C58DB32 /* IPLocation */,
+				97F18A72C3809BAE98817D5E7353BB41 /* Visits */,
+			);
+			name = Requests;
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		0AD7C2F99D3CA7CD992D208DEBD52509 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B81C88C1019E62FDDE7630B8CDAE5FCB /* IPLocation-IPApi.swift */,
+				55FCA66726669C62EF52448149B5877B /* IPLocation-IPData.swift */,
+				63122727F56BFA800A31DBD406D57089 /* IPLocation-IPGeolocation.swift */,
+				8E3FD5A256B4E98BD52C511A0CA826A2 /* IPLocation-IPInfo.swift */,
+				74CEA2A5F8A3AAAD471001D33DD0010B /* IPLocation-IPIpify.swift */,
+				3C728EF2BA6598ED064C958FA403C091 /* IPLocation-IPStack.swift */,
+			);
+			name = Services;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0F9F1BC84E54ED8B02CB09E46122EA2D /* Geocoder */ = {
+			isa = PBXGroup;
+			children = (
+				38C6172CED0F89A5C77B16638F3EC5E2 /* GeocoderRequest.swift */,
+				FB31AAB2AF7D7B849738EF2C889DCAD4 /* GeocoderServiceProtocol.swift */,
+				1A1FEF6CE12867B2A6AB1C28826556E8 /* Services */,
+			);
+			name = Geocoder;
+			path = Geocoder;
+			sourceTree = "<group>";
+		};
+		1A1FEF6CE12867B2A6AB1C28826556E8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B6058077C03D2F02B2BAB039ED01A908 /* Geocoder-Apple.swift */,
+				6366C2CCCCD8E0533C5EF6B16728EA0A /* Geocoder-Google.swift */,
+				D8FC37ACB93A3885A29470508E2C0972 /* Geocoder-Here.swift */,
+				A8E51E067D0874A829AA889D320574B6 /* Geocoder-MapBox.swift */,
+				E2A38F87DC9E5255ED57B7E6EED44128 /* Geocoder-OpenStreet.swift */,
+			);
+			name = Services;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1AB1A6A341B08D470096FF21090EE71D /* CLLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				E030DA25F12D3AC43D72AF0B9208CDAD /* LocationManagerImpProtocol.swift */,
+				7430E74EE1E0F254EDA48BAF351C176F /* CLDeviceLocationManager */,
+			);
+			name = CLLocationManager;
+			path = Sources/SwiftLocation/CLLocationManager;
+			sourceTree = "<group>";
+		};
+		1DBC3606408E474CB7F624493F686356 /* JSONNetworkHelper */ = {
+			isa = PBXGroup;
+			children = (
+				4D79D3F3064B1489F599F1A01AF7AF21 /* JSONNetworkHelper.swift */,
+			);
+			name = JSONNetworkHelper;
+			path = JSONNetworkHelper;
+			sourceTree = "<group>";
+		};
+		217781B03EBBE92BB0C34C5939D52882 /* Beacon */ = {
+			isa = PBXGroup;
+			children = (
+				3DA6DFB5380E468A9E6E798EC3EC44BB /* BeaconRequest.swift */,
+			);
+			name = Beacon;
+			path = Beacon;
+			sourceTree = "<group>";
+		};
+		370F28FBA2879F7C6D095B07623B3C62 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E8A480A6895DB3A237B4E810C6C2F627 /* CoreBluetooth.framework */,
+				152F9A6FABE27BCBB263D761F71A4F95 /* CoreLocation.framework */,
+				1E086E60FF62801605C52C526A861B2D /* Foundation.framework */,
+				50BDC853CF98F52B2F5CEAD047B3FC4E /* MapKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		46B5C3D741D213F5DF7AEE06EA7369A0 /* AddressMatch */ = {
+			isa = PBXGroup;
+			children = (
+				A7F05CF575732B803F88060CB1C8A803 /* PartialAddressMatch.swift */,
+				90720A5264A64526568DBAD3E2266352 /* PartialAddressMatch+Apple.swift */,
+				1DB0E295F31F0D2084CE51D23F5C6094 /* PartialAddressMatch+Google.swift */,
+				C8F27100043F6A242808573EBF237E0A /* PartialAddressMatch+Here.swift */,
+			);
+			name = AddressMatch;
+			path = AddressMatch;
+			sourceTree = "<group>";
+		};
+		49E0A7EDCB83F31EA3A7122C5F4428A4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8BB6864E88E7074BB4B703DFE43EB07 /* SwiftLocation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4FBB073260B0C9B77A7AE5E8FA180D1C /* Support Structures */ = {
+			isa = PBXGroup;
+			children = (
+				46B5C3D741D213F5DF7AEE06EA7369A0 /* AddressMatch */,
+				567AC5EC85CBB9B381741D872374AF7D /* GeoLocation */,
+				1DBC3606408E474CB7F624493F686356 /* JSONNetworkHelper */,
+			);
+			name = "Support Structures";
+			path = "Support Structures";
+			sourceTree = "<group>";
+		};
+		567AC5EC85CBB9B381741D872374AF7D /* GeoLocation */ = {
+			isa = PBXGroup;
+			children = (
+				73853F2B17C030DDB2B2FAD933CFC195 /* GeoLocation.swift */,
+				CC59B55CBE489F91E82CE93CEE4174FC /* GeoLocation+Apple.swift */,
+				593AEE4C965F8C03A5E7167CF529EE07 /* GeoLocation+Google.swift */,
+				316A3F506334DBA30722D77051652BFA /* GeoLocation+Here.swift */,
+				34790388BFF76610DA7B02850DBF421A /* GeoLocation+MapBox.swift */,
+				1996CE1E44B3B496C4F255BE62CBC72A /* GeoLocation+OpenStreet.swift */,
+			);
+			name = GeoLocation;
+			path = GeoLocation;
+			sourceTree = "<group>";
+		};
+		5A8AD5CC8F4C941DBE36BF2486EB0C0A /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				67A2296578C7EE531E6DB1F0BC95CE79 /* Requests */,
+			);
+			name = Request;
+			path = Sources/SwiftLocationBeaconBroadcaster/Request;
+			sourceTree = "<group>";
+		};
+		6419259366E7A1A071E87A1C4E7841C6 /* Pods-SwiftLocationPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				7D26D0EB0C3D4ACA698D59CBF170C942 /* Pods-SwiftLocationPlayground.modulemap */,
+				226D4D9E325B23412E122CD2230C6151 /* Pods-SwiftLocationPlayground-acknowledgements.markdown */,
+				8FF0EEC6102DFDBB5F4038E54BA49CE3 /* Pods-SwiftLocationPlayground-acknowledgements.plist */,
+				53FD0FAD311A5997C4764366733C5CEC /* Pods-SwiftLocationPlayground-dummy.m */,
+				C88712F5C5B8DFE28472AAAB89A8DDA4 /* Pods-SwiftLocationPlayground-frameworks.sh */,
+				35AFE287C2C59FC0D139C444DF10EAB8 /* Pods-SwiftLocationPlayground-Info.plist */,
+				1D8FD81F3B92DA130B7DDE55AADD92FA /* Pods-SwiftLocationPlayground-umbrella.h */,
+				FE82DA6E8B6F231D76291D07E3F42599 /* Pods-SwiftLocationPlayground.debug.xcconfig */,
+				CC93D7A9E44EC5E70747694C81221EBC /* Pods-SwiftLocationPlayground.release.xcconfig */,
+			);
+			name = "Pods-SwiftLocationPlayground";
+			path = "Target Support Files/Pods-SwiftLocationPlayground";
+			sourceTree = "<group>";
+		};
+		67A2296578C7EE531E6DB1F0BC95CE79 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				69E732828FA9DDDBCA09D6AFECA649E1 /* Beacon */,
+			);
+			name = Requests;
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		69E732828FA9DDDBCA09D6AFECA649E1 /* Beacon */ = {
+			isa = PBXGroup;
+			children = (
+				71111A26571AC984DBDA9DA1B5CAEC6B /* BeaconBroadcaster.swift */,
+			);
+			name = Beacon;
+			path = Beacon;
+			sourceTree = "<group>";
+		};
+		6E81250B1285BAD30251C6EE5C58DB32 /* IPLocation */ = {
+			isa = PBXGroup;
+			children = (
+				439ACDFE106E5C3D1B9ED4CCC7993D0E /* IPLocation+Data.swift */,
+				DAA2CF8E6AF62F92F8E1808B9CFD339D /* IPLocationRequest.swift */,
+				5F0E0E4E635A78D1B223D00954A830AB /* IPServiceProtocol.swift */,
+				0AD7C2F99D3CA7CD992D208DEBD52509 /* Services */,
+			);
+			name = IPLocation;
+			path = IPLocation;
+			sourceTree = "<group>";
+		};
+		7430E74EE1E0F254EDA48BAF351C176F /* CLDeviceLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				5A8976810FC424633D40130A2E554AAB /* DeviceLocationManager.swift */,
+			);
+			name = CLDeviceLocationManager;
+			path = CLDeviceLocationManager;
+			sourceTree = "<group>";
+		};
+		8438DAC6BA0ACE8F27A8B3D7B8C5B291 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F051FD4B1B5D6909D3AE1D81840097DA /* Autocomplete-Apple.swift */,
+				890B8571FCB1E2C9E1CF0EA4E04CEF35 /* Autocomplete-Google.swift */,
+				6FB3B767FA7B13C8D689A941034F4E0D /* Autocomplete-Here.swift */,
+			);
+			name = Services;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		84C2DE451A19147F8457D7D893B7C7E2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E9147DAB2CF48A083C3BE2F8C0AABEFC /* LICENSE */,
+				B5D561DF8D6A8326358D00B5477D86B9 /* README.md */,
+				AEFB5464021376EDAE9EF7E360798AD8 /* SwiftLocation.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		97F18A72C3809BAE98817D5E7353BB41 /* Visits */ = {
+			isa = PBXGroup;
+			children = (
+				F37B7183E15A43F0D8C0C71977D06EDA /* VisitsRequest.swift */,
+			);
+			name = Visits;
+			path = Visits;
+			sourceTree = "<group>";
+		};
+		A3729124FE054A403343C08DA29E7813 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6419259366E7A1A071E87A1C4E7841C6 /* Pods-SwiftLocationPlayground */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A6F177CABF7FF64BE014439973AF3486 /* Autocomplete */ = {
+			isa = PBXGroup;
+			children = (
+				17099954E0F7A7368A93715EF25276B9 /* AutocompleteProtocol.swift */,
+				5CE95584A5BD698211F8452B653F0089 /* AutocompleteRequest.swift */,
+				8438DAC6BA0ACE8F27A8B3D7B8C5B291 /* Services */,
+			);
+			name = Autocomplete;
+			path = Autocomplete;
+			sourceTree = "<group>";
+		};
+		B0F08A282FB3F8AFF57BFF602E5A57B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D209C49CF6BB816388A154522E2F9701 /* Pods_SwiftLocationPlayground.framework */,
+				4C678B4A8CAADE71D75DA8311295097A /* SwiftLocation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8BB6864E88E7074BB4B703DFE43EB07 /* SwiftLocation */ = {
+			isa = PBXGroup;
+			children = (
+				FD03DA7E0F4E71CB551B37F550D98E7B /* BeaconBroadcaster */,
+				CCB8DF82F7958D28187EC1152068AFD4 /* Core */,
+				84C2DE451A19147F8457D7D893B7C7E2 /* Pod */,
+				FE8A1D79F70E77476BF0D9AF4661D28D /* Support Files */,
+			);
+			name = SwiftLocation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				370F28FBA2879F7C6D095B07623B3C62 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCB8DF82F7958D28187EC1152068AFD4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FDADB871A76F6666E9CB32BD93DEBC05 /* SwiftLocation.swift */,
+				E8216A7FE3A9C8447A6340FFB209F963 /* SwiftLocation+Credentials.swift */,
+				F577C4A54313379D08B90612D880853D /* SwiftLocation+Errors.swift */,
+				1AB1A6A341B08D470096FF21090EE71D /* CLLocationManager */,
+				E591B59CC05C3D8B12952E17EF06176F /* Extensions */,
+				F3CE2733954547003561A0FF352458C5 /* Request */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				49E0A7EDCB83F31EA3A7122C5F4428A4 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				B0F08A282FB3F8AFF57BFF602E5A57B5 /* Products */,
+				A3729124FE054A403343C08DA29E7813 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D74E189CB4B7B832ED4A29FA539ABFB3 /* Geofencing */ = {
+			isa = PBXGroup;
+			children = (
+				B2E6C6C9A6641BD23AC71BF8B3065F60 /* GeofencingOptions.swift */,
+				511E3ADE72DA9E0B7A1B55AFD4C66C7A /* GeofencingRequest.swift */,
+			);
+			name = Geofencing;
+			path = Geofencing;
+			sourceTree = "<group>";
+		};
+		E591B59CC05C3D8B12952E17EF06176F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1B3FADD046F1E23BF22D6AED732B9D12 /* CLLocationManager+Extension.swift */,
+				450D4E440B21F8FDC74A2B4088BD0F04 /* Foundation+Extras.swift */,
+			);
+			name = Extensions;
+			path = Sources/SwiftLocation/Extensions;
+			sourceTree = "<group>";
+		};
+		F3CE2733954547003561A0FF352458C5 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				F97EA8774A34223FC641DADCACFF22E6 /* Abstract Request */,
+				08BCD459F5151A24862B632EB67409CF /* Requests */,
+				4FBB073260B0C9B77A7AE5E8FA180D1C /* Support Structures */,
+			);
+			name = Request;
+			path = Sources/SwiftLocation/Request;
+			sourceTree = "<group>";
+		};
+		F72E225B8E0BF3B3D2375BD6ABCADC06 /* GPSLocation */ = {
+			isa = PBXGroup;
+			children = (
+				1A73C7234BFCD0F39758C432210162CD /* GPSLocationOptions.swift */,
+				D71DA46007C04F1D37DCB35987E23461 /* GPSLocationRequest.swift */,
+			);
+			name = GPSLocation;
+			path = GPSLocation;
+			sourceTree = "<group>";
+		};
+		F97EA8774A34223FC641DADCACFF22E6 /* Abstract Request */ = {
+			isa = PBXGroup;
+			children = (
+				2E6213BC6D15885C2E9C7E6F70A4FE06 /* RequestProtocol.swift */,
+				F668A02ED88AE8BA5616EDDAD57E6DA3 /* RequestProtocol+Extension.swift */,
+				828DB0DDEB742B80EA597C95CAD747EF /* RequestProtocol+Support.swift */,
+			);
+			name = "Abstract Request";
+			path = "Abstract Request";
+			sourceTree = "<group>";
+		};
+		FD03DA7E0F4E71CB551B37F550D98E7B /* BeaconBroadcaster */ = {
+			isa = PBXGroup;
+			children = (
+				DDC73B6460688D75827AE47CDFD97DBF /* SwiftLocation+BeaconBroadcaster.swift */,
+				5A8AD5CC8F4C941DBE36BF2486EB0C0A /* Request */,
+			);
+			name = BeaconBroadcaster;
+			sourceTree = "<group>";
+		};
+		FE8A1D79F70E77476BF0D9AF4661D28D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CEE9BA46C331A88D39E622A67832716 /* SwiftLocation.modulemap */,
+				9CBD1B8145D0756D66726D8C321C5394 /* SwiftLocation-dummy.m */,
+				20E0EE1BC9B52381BFA8BB141961A83B /* SwiftLocation-Info.plist */,
+				8A679E045B1CE828F6A683137248C315 /* SwiftLocation-prefix.pch */,
+				3618B01846D8B9417E3AC0DBB565E3BE /* SwiftLocation-umbrella.h */,
+				70262EFDB5D35F97B0B6913507227DBF /* SwiftLocation.debug.xcconfig */,
+				09E37EC4EC3C5DFF0C4BEA410F62428B /* SwiftLocation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "SwiftLocationPlayground/Pods/Target Support Files/SwiftLocation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		33526BBD55B80F8C3B6AC32E918D4630 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F23468988358728B2AE70F51B777ADE /* SwiftLocation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		458E5E0F612111931AD061392AB780E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3248DED708C0BE1A93A2E5E1AED57A2A /* Pods-SwiftLocationPlayground-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A77DC3FBE3DFD1D1CA8D8812A6CF0776 /* SwiftLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5859E8F50AC09BA2A99F88EB5E97878 /* Build configuration list for PBXNativeTarget "SwiftLocation" */;
+			buildPhases = (
+				33526BBD55B80F8C3B6AC32E918D4630 /* Headers */,
+				5C49C0C328CC9CA194C8CBCD6052BE62 /* Sources */,
+				61165E2E339B0EA5B93C17AE0E10FF8D /* Frameworks */,
+				CB98C499F68557E9C0C1667A6F703468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftLocation;
+			productName = SwiftLocation;
+			productReference = 4C678B4A8CAADE71D75DA8311295097A /* SwiftLocation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBADEEA90E2E6B18CC45C8992B524D68 /* Pods-SwiftLocationPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F11DFCF72FD16201F100C0FF7C7475 /* Build configuration list for PBXNativeTarget "Pods-SwiftLocationPlayground" */;
+			buildPhases = (
+				458E5E0F612111931AD061392AB780E2 /* Headers */,
+				F67DBE20EF2FD7CE67A1B90563C18FA1 /* Sources */,
+				F5911DDACFFA173E29F10A37691589FE /* Frameworks */,
+				8EF131976F333E28AEA8D1503D771BE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5B662A824B2C944124493F65CF99FE /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftLocationPlayground";
+			productName = "Pods-SwiftLocationPlayground";
+			productReference = D209C49CF6BB816388A154522E2F9701 /* Pods_SwiftLocationPlayground.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B0F08A282FB3F8AFF57BFF602E5A57B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBADEEA90E2E6B18CC45C8992B524D68 /* Pods-SwiftLocationPlayground */,
+				A77DC3FBE3DFD1D1CA8D8812A6CF0776 /* SwiftLocation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EF131976F333E28AEA8D1503D771BE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB98C499F68557E9C0C1667A6F703468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C49C0C328CC9CA194C8CBCD6052BE62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F3B91D572A134A3BDEA2CF902CC6AA /* Autocomplete-Apple.swift in Sources */,
+				AFFE2CB0D6454C28CA7934FB39ED69D8 /* Autocomplete-Google.swift in Sources */,
+				9C979A58C477350166CDBC2B662703AF /* Autocomplete-Here.swift in Sources */,
+				8A6B947DCC1FA20746747AE581B76893 /* AutocompleteProtocol.swift in Sources */,
+				07F6B10C8D85A83F89E9BABDC66FE0C8 /* AutocompleteRequest.swift in Sources */,
+				096D7B89060EA873A5FE5D1DEF22E6CC /* BeaconBroadcaster.swift in Sources */,
+				EDA8A13D33CE52892C846D6ADE0CB7EB /* BeaconRequest.swift in Sources */,
+				E903C405503636B295D058EBFF6AA304 /* CLLocationManager+Extension.swift in Sources */,
+				B194CA75CD8B2CE83FBB1DB604CB44C2 /* DeviceLocationManager.swift in Sources */,
+				E471F4BF3E3163967614ACFD6337239F /* Foundation+Extras.swift in Sources */,
+				B11811AB1E8FE44CF432937AB473BB82 /* Geocoder-Apple.swift in Sources */,
+				C6B5AFC97D3422022E64598C953502CC /* Geocoder-Google.swift in Sources */,
+				748CF03C13F9C2D3A970D54B532E3417 /* Geocoder-Here.swift in Sources */,
+				69123820520865AD3828F95EFA17235F /* Geocoder-MapBox.swift in Sources */,
+				549E2D678813C4BE31F0E92F083F34A9 /* Geocoder-OpenStreet.swift in Sources */,
+				F373E5C81243F822AEBE64B0DC39739D /* GeocoderRequest.swift in Sources */,
+				79C2A0E50BC2296BD8BA398284B2A552 /* GeocoderServiceProtocol.swift in Sources */,
+				A7FF66EC214489D7178B6054D83F509E /* GeofencingOptions.swift in Sources */,
+				56F9A371A3908748905F182E9DAF8E2C /* GeofencingRequest.swift in Sources */,
+				ECA343E80D86A53954001B573526A8F8 /* GeoLocation+Apple.swift in Sources */,
+				D33D46D79C4C1E2015522B90B0E61E11 /* GeoLocation+Google.swift in Sources */,
+				5BD052283C4150E92571C53B50885E82 /* GeoLocation+Here.swift in Sources */,
+				5AED2E52B7AAF69156099B5649E575C6 /* GeoLocation+MapBox.swift in Sources */,
+				B66D0D7A9EDC80AA402AD2E170D2CD0C /* GeoLocation+OpenStreet.swift in Sources */,
+				7591BF2D40355751D676ABC77876DA8E /* GeoLocation.swift in Sources */,
+				753CFAC4C4EAB838D1D29A5E82A156B9 /* GPSLocationOptions.swift in Sources */,
+				5AC52D2B9059A0AF675C085D0642371E /* GPSLocationRequest.swift in Sources */,
+				299DC1A8D964824A6A6097F18109F2D7 /* IPLocation+Data.swift in Sources */,
+				5D62FB21F146BC67E570AFB8BE6977B7 /* IPLocation-IPApi.swift in Sources */,
+				77EE9E37FA49F96DE390B3BCA440472F /* IPLocation-IPData.swift in Sources */,
+				3AACAC3FE1781EE4D922DF7894779F4B /* IPLocation-IPGeolocation.swift in Sources */,
+				BD85998B5C356E28F92A421C83127104 /* IPLocation-IPInfo.swift in Sources */,
+				D2F5ED7E1803E6CD02D0B7E51ABF6A66 /* IPLocation-IPIpify.swift in Sources */,
+				CEAFF0507B377E560E65DD03341FC620 /* IPLocation-IPStack.swift in Sources */,
+				4B84BD08F5BBA47B80D3E4B76145B864 /* IPLocationRequest.swift in Sources */,
+				F16D8DEE834FB4195E6438B291F7F5ED /* IPServiceProtocol.swift in Sources */,
+				4F3C57B545176CB1333DE65D821EF425 /* JSONNetworkHelper.swift in Sources */,
+				95101641CA162C07EA2603F501DFF89B /* LocationManagerImpProtocol.swift in Sources */,
+				A823C73D8C1F019C584996B2C176EA88 /* PartialAddressMatch+Apple.swift in Sources */,
+				A44B1EA403B26ECE55551214989F389E /* PartialAddressMatch+Google.swift in Sources */,
+				DA1E2F68D41BDC019B801035913DAD14 /* PartialAddressMatch+Here.swift in Sources */,
+				A941581D6146DE0BF49A6EC958796181 /* PartialAddressMatch.swift in Sources */,
+				836C5219371C083B15CCB9DA8C598B4C /* RequestProtocol+Extension.swift in Sources */,
+				706B8E7B1DBA40F4B283D595453295D0 /* RequestProtocol+Support.swift in Sources */,
+				6B8CA29619127BD0F3D730E0E68E9DBE /* RequestProtocol.swift in Sources */,
+				04C5BE7DF3CD60A81E7BBEF5B15A6E3B /* SwiftLocation+BeaconBroadcaster.swift in Sources */,
+				C29E39A916057FA6AA7A4D372D113C2D /* SwiftLocation+Credentials.swift in Sources */,
+				6D7F7E6EB467C88857F0758F55A4652A /* SwiftLocation+Errors.swift in Sources */,
+				797BA5673BBA5D248436AED4F54DFD58 /* SwiftLocation-dummy.m in Sources */,
+				5F7EDCF0A927C3BC0B52D0AA748E9CC7 /* SwiftLocation.swift in Sources */,
+				C2B79D1C455001B61ED3EA8EE1E9F76F /* VisitsRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F67DBE20EF2FD7CE67A1B90563C18FA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD839DB2589A762984A36C29383EB77 /* Pods-SwiftLocationPlayground-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF5B662A824B2C944124493F65CF99FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLocation;
+			target = A77DC3FBE3DFD1D1CA8D8812A6CF0776 /* SwiftLocation */;
+			targetProxy = 962BD1EC263214A798475FAC5796094E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		66E817886E7CA2FCC2ACDA1E5DED4251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC93D7A9E44EC5E70747694C81221EBC /* Pods-SwiftLocationPlayground.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftLocationPlayground/Pods-SwiftLocationPlayground-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftLocationPlayground/Pods-SwiftLocationPlayground.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79191D8A76DDC2932888310A522ECCE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE82DA6E8B6F231D76291D07E3F42599 /* Pods-SwiftLocationPlayground.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftLocationPlayground/Pods-SwiftLocationPlayground-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftLocationPlayground/Pods-SwiftLocationPlayground.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		836110C503E27AA08782D510BA14F28D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70262EFDB5D35F97B0B6913507227DBF /* SwiftLocation.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftLocation/SwiftLocation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftLocation/SwiftLocation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftLocation/SwiftLocation.modulemap";
+				PRODUCT_MODULE_NAME = SwiftLocation;
+				PRODUCT_NAME = SwiftLocation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F6C1408FC92B0367FF9EA8E553D3A862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09E37EC4EC3C5DFF0C4BEA410F62428B /* SwiftLocation.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftLocation/SwiftLocation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftLocation/SwiftLocation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftLocation/SwiftLocation.modulemap";
+				PRODUCT_MODULE_NAME = SwiftLocation;
+				PRODUCT_NAME = SwiftLocation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F11DFCF72FD16201F100C0FF7C7475 /* Build configuration list for PBXNativeTarget "Pods-SwiftLocationPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79191D8A76DDC2932888310A522ECCE2 /* Debug */,
+				66E817886E7CA2FCC2ACDA1E5DED4251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5859E8F50AC09BA2A99F88EB5E97878 /* Build configuration list for PBXNativeTarget "SwiftLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836110C503E27AA08782D510BA14F28D /* Debug */,
+				F6C1408FC92B0367FF9EA8E553D3A862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

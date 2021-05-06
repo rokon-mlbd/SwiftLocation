@@ -158,11 +158,12 @@ public class DeviceLocationManager: NSObject, LocationManagerImpProtocol, CLLoca
     // MARK: - Private Functions
     
     private func didChangeAuthorizationStatus(_ newStatus: CLAuthorizationStatus) {
+        delegate?.didChangeAuthorizationStatus(newStatus)
         LocationManager.Logger.log("Authorization is set to = \(newStatus)")
         guard newStatus != .notDetermined else {
             return
         }
-        
+
         let callbacks = authorizationCallbacks
         callbacks.forEach( { $0(authorizationStatus) })
         authorizationCallbacks.removeAll()

@@ -28,10 +28,10 @@ import CoreLocation
 // MARK: - LocationManagerDelegate
 
 public protocol LocationManagerDelegate: class {
-    
     // MARK: - Location Manager
     func locationManager(didFailWithError error: Error)
     func locationManager(didReceiveLocations locations: [CLLocation])
+    func didChangeAuthorizationStatus(_ newStatus: CLAuthorizationStatus)
     
     // MARK: - Geofencing
     func locationManager(geofenceEvent event: GeofenceEvent)

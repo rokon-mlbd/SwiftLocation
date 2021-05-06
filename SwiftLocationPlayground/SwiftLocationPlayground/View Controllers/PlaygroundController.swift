@@ -116,20 +116,21 @@ public class PlaygroundController: UIViewController, UITableViewDataSource, UITa
                 self?.featuresTableView.reloadData()
             }
         }
+        requestAuthWithMode(.always)
         
-        UIAlertController.showActionSheet(title: "Request Authorization",
-                                          message: "Select the method to use to request auth",
-                                          options: [
-                                            ("Via plist", { _ in
-                                                requestAuthWithMode(.plist)
-                                            }),
-                                            ("Always", { _ in
-                                                requestAuthWithMode(.always)
-                                            }),
-                                            ("Only In Use", { _ in
-                                                requestAuthWithMode(.onlyInUse)
-                                            }),
-                                          ])
+//        UIAlertController.showActionSheet(title: "Request Authorization",
+//                                          message: "Select the method to use to request auth",
+//                                          options: [
+//                                            ("Via plist", { _ in
+//                                                requestAuthWithMode(.plist)
+//                                            }),
+//                                            ("Always", { _ in
+//                                                requestAuthWithMode(.always)
+//                                            }),
+//                                            ("Only In Use", { _ in
+//                                                requestAuthWithMode(.onlyInUse)
+//                                            }),
+//                                          ])
     }
     
     private func setCredentialsStoreValue() {

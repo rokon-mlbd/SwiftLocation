@@ -34,6 +34,10 @@ import UIKit
 /// Shortcut
 public let SwiftLocation = LocationManager.shared
 
+public protocol SwiftLocationDelegate: class {
+    func didChangeAuthorizationStatus(_ newStatus: CLAuthorizationStatus)
+}
+
 public class LocationManager: LocationManagerDelegate, CustomStringConvertible {
         
     // MARK: - Private Properties
@@ -50,6 +54,7 @@ public class LocationManager: LocationManagerDelegate, CustomStringConvertible {
     
     /// Called when a new set of gps requests has been restored from relaunched app instance.
     public var onRestoreGPS: (([GPSLocationRequest]) -> Void)?
+    public weak var delegate: SwiftLocationDelegate?
     
     /// Called when a new set of visits requests has been restored from relaunched app instance.
     public var onRestoreVisits: (([VisitsRequest]) -> Void)?
@@ -601,6 +606,10 @@ public class LocationManager: LocationManagerDelegate, CustomStringConvertible {
         
         lastKnownGPSLocation = lastLocation
         dispatchDataToQueue(gpsRequests, data: .success(lastLocation))
+    }
+
+    public func didChangeAuthorizationStatus(_ newStatus: CLAuthorizationStatus) {
+        delegate?.didChangeAuthorizationStatus(newStatus)
     }
     
     public func locationManager(didVisits visit: CLVisit) {
